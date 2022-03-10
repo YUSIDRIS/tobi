@@ -1,0 +1,10 @@
+#!/bin/bash
+echo this bash scripting tell if number is greater 100
+echo input an integer
+read count
+if [ $count -eq 100 ]
+then 
+  echo number is 100
+else
+  echo number is not 100
+fi
